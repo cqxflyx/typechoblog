@@ -21,7 +21,7 @@ require_once __TYPECHO_ROOT_DIR__ . '/var/Typecho/Common.php';
 $db = new \Typecho\Db('Mysqli', 'typecho_');
 $db->addServer(array (
   'host' => 'mysqllyx.run.goorm.io',
-  'port' => 3306,
+  'port' => 80,
   'user' => 'typecho',
   'password' => 'eR5EseXPYKEYYyXS',
   'charset' => 'utf8mb4',
