@@ -22,7 +22,7 @@ $db = new \Typecho\Db('Mysqli', 'typecho_');
 $db->addServer(array (
   'host' => 'sql.wsfdb.cn',
   'port' => 3306,
-  'user' => 'LYXOfficialtypecho',
+  'user' => 'LYXOfficial',
   'password' => 'VV3FA0VPlcwV9OgJtgtl',
   'charset' => 'utf8mb4',
   'database' => 'LYXOfficialtypecho',
