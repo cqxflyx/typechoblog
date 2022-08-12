@@ -20,12 +20,12 @@ require_once __TYPECHO_ROOT_DIR__ . '/var/Typecho/Common.php';
 // config db
 $db = new \Typecho\Db('Mysqli', 'typecho_');
 $db->addServer(array (
-  'host' => 'localhost',
+  'host' => 'sql.wsfdb.cn',
   'port' => 3306,
-  'user' => 'typecho',
-  'password' => 'eR5EseXPYKEYYyXS',
+  'user' => 'LYXOfficialtypecho',
+  'password' => 'VV3FA0VPlcwV9OgJtgtl',
   'charset' => 'utf8mb4',
-  'database' => 'typecho',
+  'database' => 'LYXOfficialtypecho',
   'engine' => 'InnoDB',
 ), \Typecho\Db::READ | \Typecho\Db::WRITE);
 \Typecho\Db::set($db);
