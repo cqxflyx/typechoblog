@@ -24,7 +24,7 @@ $db->addServer(array (
   'port' => 52793,
   'user' => 'tc',
   'password' => '6s33n7hhrk4rDyf8',
-  'charset' => 'utf8mb4',
+  'charset' => 'utf81',
   'database' => 'tc',
   'engine' => 'InnoDB',
 ), \Typecho\Db::READ | \Typecho\Db::WRITE);
