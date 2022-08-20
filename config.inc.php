@@ -22,10 +22,10 @@ $db = new \Typecho\Db('Mysqli', 'typecho_');
 $db->addServer(array (
   'host' => '43.200.121.77',
   'port' => 52793,
-  'user' => 'tc',
-  'password' => '6s33n7hhrk4rDyf8',
-  'charset' => 'utf8',
-  'database' => 'tc',
+  'user' => 'typecho',
+  'password' => 'eR5EseXPYKEYYyXS',
+  'charset' => 'utf8mb4',
+  'database' => 'typecho',
   'engine' => 'InnoDB',
 ), \Typecho\Db::READ | \Typecho\Db::WRITE);
 \Typecho\Db::set($db);
