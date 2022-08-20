@@ -20,12 +20,12 @@ require_once __TYPECHO_ROOT_DIR__ . '/var/Typecho/Common.php';
 // config db
 $db = new \Typecho\Db('Mysqli', 'typecho_');
 $db->addServer(array (
-  'host' => 'mysqllyx.run.goorm.io',
-  'port' => 80,
-  'user' => 'typecho',
-  'password' => 'eR5EseXPYKEYYyXS',
+  'host' => '43.200.121.77',
+  'port' => 52793,
+  'user' => 'tc',
+  'password' => '6s33n7hhrk4rDyf8',
   'charset' => 'utf8mb4',
-  'database' => 'typecho',
+  'database' => 'tc',
   'engine' => 'InnoDB',
 ), \Typecho\Db::READ | \Typecho\Db::WRITE);
 \Typecho\Db::set($db);
